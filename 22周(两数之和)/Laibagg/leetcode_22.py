@@ -11,7 +11,7 @@ class Leetcode(object):
         for i in nums:
             for j in nums:
                 if(i + j == target):
-                    return ([i, j]) 
+                    return ([nums.index(i), nums.index(j)]) 
         print('laibagg')
 
 if __name__ == '__main__':
